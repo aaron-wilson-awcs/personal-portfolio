@@ -3,7 +3,7 @@ import './Content.css'
 function Content() {
   return (
     <>
-      <div id="Content">
+      <div id="content">
         <ul>
             <li><h1>About Me</h1></li>
             <li><h1>Skills</h1></li>
