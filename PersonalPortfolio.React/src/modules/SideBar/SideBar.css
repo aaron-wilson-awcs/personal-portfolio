@@ -1,0 +1,4 @@
+div#sidebar {
+    column-span: 1;    
+    padding: 1.5rem;
+}
