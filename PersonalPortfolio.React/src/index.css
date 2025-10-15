@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+html, body { 
+    height: 100%;   
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    background-color: oklch(84.991% 0.00219 14.769);
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+#header.section {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 65%;
+    overflow: visible;
+}
+
+#content.section {
+    display: grid;
+    grid-template-columns: 30% 80%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.bar-colour-grey {
+    background-color: oklch(27.303% 0.00926 52.978);
+}
+
