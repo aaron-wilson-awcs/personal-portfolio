@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Header from './modules/Header/Header.tsx'
-import SideBar from './modules/SideBar/SideBar.tsx'
-import Content from './modules/Content/Content.tsx'
+import Header from './sections/Header/Header.tsx'
+import SideBar from './sections/SideBar/SideBar.tsx'
+import Content from './sections/Content/Content.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
