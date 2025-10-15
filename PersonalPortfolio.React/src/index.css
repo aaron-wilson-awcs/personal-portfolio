@@ -5,6 +5,7 @@ html, body {
     width: 100%; 
     margin: 0; 
     padding: 0; 
+    background-color: oklch(84.991% 0.00219 14.769);
 }
 
 #root {
@@ -30,5 +31,9 @@ html, body {
     padding: 0;
     width: 100%;
     height: auto;
+}
+
+.bar-colour-grey {
+    background-color: oklch(27.303% 0.00926 52.978);
 }
 

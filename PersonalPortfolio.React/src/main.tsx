@@ -4,6 +4,7 @@ import './index.css'
 import Header from './sections/Header/Header.tsx'
 import SideBar from './sections/SideBar/SideBar.tsx'
 import Content from './sections/Content/Content.tsx'
+import Footer from './sections/Footer/Footer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -15,7 +16,7 @@ createRoot(document.getElementById('root')!).render(
       <Content />
     </div>
     <div id="footer" className='section'>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   </StrictMode>,
 )
